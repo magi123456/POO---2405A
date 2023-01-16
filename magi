@@ -1,0 +1,53 @@
+fun main() {
+   //POO - programação orientada a objetios - simular coisas da realidade na programação
+       //
+       //objetos - possui Estados(nome,idade, endereço, altura e etc),
+       //comportamento(andar, correr, dormir, comer etc)
+       //
+       //a POO é dividido:
+       //
+       //classes - são modelos que servem para a construção de objs derivados dele mesmo(Ex classe pessoa)
+       //as clesses recebem atributos(os Estados)
+       //
+       //Métodos - será as instancias da formas de agir
+       //Estrutura de uma classe
+       // class Nome() {ocorridos de um obj}
+       /*
+       val ricardo = pessoa()//instancia um obj
+       ricardo.nome = "ricardo Frango de Oliweira"
+       ricardo.altura = 2.15 
+       ricardo.corDosOlhos = "verde"
+       ricardo.peso = 100.0 
+       println(ricardo.altura) //para exibir um atributo em especifico
+       */
+        val convidado1 = pessoa("Cladio", 1.79, "castanho", 183.0)
+        println(convidado1.peso)
+        val convidado2 = pessoa("juliana", 1.5, "azul", 53.5)
+        val convidado3 = pessoa("felipe", 1.70, "verde", 70.00)
+        val convidado4 = pessoa("pedro", 1.77, "caramelo", 45.00)
+        val convidado5 = pessoa("junio", 1.56, "preto",111.00)
+        val convidado6 = pessoa("leticia", 2.00, "marrom escuro", 99.00)
+        val convidado7 = pessoa("laura", 1.66, "verde agua", 77.00)
+        val convidado8 = pessoa("vitória", 1.89, "azul esmeralda", 73.00)
+        println("convidado 1: " + convidado1.nome)
+        println("convidado 2: " + convidado2.nome)
+        println("convidado 3: " + convidado3.nome)
+        println("convidado 4: " + convidado4.nome)
+        println("convidado 4: " + convidado4.nome)
+}
+}
+}
+class pessoa(val nome: String,
+             val altura: Double,
+            val corDosOlhos: String,
+            val peso: Double){
+      //declarando atributos para a classe
+      /*
+      
+      var nome = ""
+      var altura = 0.0
+      var corDosOlhos = ""
+      var peso = 0.0
+      */
+
+}     
