@@ -49,5 +49,31 @@ class pessoa(val nome: String,
       var corDosOlhos = ""
       var peso = 0.0
       */
-
+fun main(){
+    var cachorro = animal("mamiferos",'F',"casas","carnivoro",15,true)   
+    //println("meu bicho é um " + cachorro.especie + " ele é " + cachorro.dieta + " e ele mora no " + cachorro.habitat)
+    cachorro.Atacar(true) 
+}
+   class animal(val especie: String, val genero: Char, val habitat: String,
+               val dieta: String, val idade: Int, val voa: Boolean){
+       
+     /*  var dinossauro = animal("réptil","M","na amazonia",
+                              "carnivoro e vegetariano",600,true)
+                              */
+            
+           fun Atacar(bravo: Boolean){
+               if(bravo == true){
+               println("Animal atacando")
+           }else{
+               println("Animal de boa, suavao")
+               
+           }
+           }fun manso(calmo: Boolean){
+               if(manso == true){
+                   println("Animal bravo,bravao" )
+       
+       
+       
+   
+}
 }     
